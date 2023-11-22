@@ -85,7 +85,7 @@ ORDER BY item_name ASC;
 
 ![Retrieve all product names and their categories from the Products table](\\output\\img\\data_cleaning_1.png)
 
-For csv file you can find it [here](\\output\\csv\\data_cleaning_1.csv).
+For csv file you can find it [here](output/csv/data_cleaning_1.csv).
 
 ### Find products listed in the Sales table that do not exist in the Products table
 

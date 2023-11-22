@@ -60,7 +60,7 @@ The dataset consists of four interconnected tables:
 
 #### Database Relationship
 
-![Database Relationship](\\output\\img\\database_relationship.png)
+![Database Relationship](output/img/database_relationship.png)
 
 ## Data Cleaning
 
@@ -83,7 +83,7 @@ ORDER BY item_name ASC;
 
 ```
 
-![Retrieve all product names and their categories from the Products table](\\output\\img\\data_cleaning_1.png)
+![Retrieve all product names and their categories from the Products table](output/img/data_cleaning_1.png)
 
 For csv file you can find it [here](output/csv/data_cleaning_1.csv).
 
@@ -100,7 +100,7 @@ WHERE b.item_code IS NULL;
 
 ```
 
-![Find products listed in the Sales table that do not exist in the Products table](\\output\\img\\data_cleaning_2.png)
+![Find products listed in the Sales table that do not exist in the Products table](output/img/data_cleaning_2.png)
 
 For csv file you can find it [here](\\output\\csv\\data_cleaning_2.csv).
 
@@ -150,7 +150,7 @@ ORDER BY ROUND(AVG(loss_rate), 2) DESC;
 
 ```
 
-![Display the item name along with its loss rate](\\output\\img\\loss_rates_1.png)
+![Display the item name along with its loss rate](output/img/loss_rates_1.png)
 
 For csv file you can find it [here](\\output\\csv\\loss_rates_1.csv).
 

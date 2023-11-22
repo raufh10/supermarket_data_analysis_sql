@@ -102,7 +102,7 @@ WHERE b.item_code IS NULL;
 
 ![Find products listed in the Sales table that do not exist in the Products table](output/img/data_cleaning_2.png)
 
-For csv file you can find it [here](\\output\\csv\\data_cleaning_2.csv).
+For csv file you can find it [here](output/csv/data_cleaning_2.csv).
 
 #### Data Cleaning Summary
 
@@ -152,7 +152,7 @@ ORDER BY ROUND(AVG(loss_rate), 2) DESC;
 
 ![Display the item name along with its loss rate](output/img/loss_rates_1.png)
 
-For csv file you can find it [here](\\output\\csv\\loss_rates_1.csv).
+For csv file you can find it [here](output/csv/loss_rates_1.csv).
 
 #### List all items with a loss rate greater than average loss rate from the Loss_Rates table
 
@@ -171,9 +171,9 @@ ORDER BY item_name ASC;
 
 ```
 
-![List all items with a loss rate greater than average loss rate from the Loss_Rates table](\\output\\img\\loss_rates_2.png)
+![List all items with a loss rate greater than average loss rate from the Loss_Rates table](output/img/loss_rates_2.png)
 
-For csv file you can find it [here](\\output\\csv\\loss_rates_2.csv).
+For csv file you can find it [here](output/csv/loss_rates_2.csv).
 
 #### Determine the average loss rate for each category
 
@@ -190,9 +190,9 @@ ORDER BY ROUND(AVG(loss_rate), 2) DESC;
 
 ```
 
-![Determine the average loss rate for each category](\\output\\img\\loss_rates_3.png)
+![Determine the average loss rate for each category](output/img/loss_rates_3.png)
 
-For csv file you can find it [here](\\output\\csv\\loss_rates_3.csv).
+For csv file you can find it [here](output/csv/loss_rates_3.csv).
 
 #### Identify products that have a higher loss rate than the average loss rate of their respective category
 
@@ -221,9 +221,9 @@ ORDER BY ROUND(AVG(loss_rate), 2) DESC;
 
 ```
 
-![Identify products that have a higher loss rate than the average loss rate of their respective category](\\output\\img\\loss_rates_4.png)
+![Identify products that have a higher loss rate than the average loss rate of their respective category](output/img/loss_rates_4.png)
 
-For csv file you can find it [here](\\output\\csv\\loss_rates_4.csv).
+For csv file you can find it [here](output/csv/loss_rates_4.csv).
 
 #### Loss_Rates Summary
 
@@ -247,9 +247,9 @@ ORDER BY ROUND(SUM(a.quantity*a.unit_sell_price), 2) DESC;
 
 ```
 
-![Calculate the average wholesale price of each category of products](\\output\\img\\wholesale_prices_1.png)
+![Calculate the average wholesale price of each category of products](output/img/wholesale_prices_1.png)
 
-For csv file you can find it [here](\\output\\csv\\wholesale_prices_1.csv).
+For csv file you can find it [here](output/csv/wholesale_prices_1.csv).
 
 #### Calculate the average wholesale price for each category and the percentage variation from the overall average wholesale price across all categories
 
@@ -277,9 +277,9 @@ CROSS JOIN (
 
 ```
 
-![Calculate the average wholesale price for each category and the percentage variation from the overall average wholesale price across all categories](\\output\\img\\wholesale_prices_2.png)
+![Calculate the average wholesale price for each category and the percentage variation from the overall average wholesale price across all categories](output/img/wholesale_prices_2.png)
 
-For csv file you can find it [here](\\output\\csv\\wholesale_prices_2.csv).
+For csv file you can find it [here](output/csv/wholesale_prices_2.csv).
 
 #### Wholesale_Prices Summary
 
@@ -302,9 +302,9 @@ ORDER BY ROUND(SUM(a.quantity*a.unit_sell_price), 2) DESC;
 
 ```
 
-![Find the total sales for each item in the Sales table](\\output\\img\\sales_1.png)
+![Find the total sales for each item in the Sales table](output/img/sales_1.png)
 
-For csv file you can find it [here](\\output\\csv\\sales_1.csv).
+For csv file you can find it [here](output/csv/sales_1.csv).
 
 #### Find the total sales for each category of products
 
@@ -321,9 +321,9 @@ ORDER BY ROUND(SUM(a.quantity*a.unit_sell_price), 2) DESC;
 
 ```
 
-![Find the total sales for each category of products](\\output\\img\\sales_2.png)
+![Find the total sales for each category of products](output/img/sales_2.png)
 
-For csv file you can find it [here](\\output\\csv\\sales_2.csv).
+For csv file you can find it [here](output/csv/sales_2.csv).
 
 #### List the top 3 products with the highest sales in each category
 
@@ -350,9 +350,9 @@ ORDER BY ProductsCategory ASC, ROUND(TotalSales, 2) DESC;
 
 ```
 
-![List the top 3 products with the highest sales in each category](\\output\\img\\sales_3.png)
+![List the top 3 products with the highest sales in each category](output/img/sales_3.png)
 
-For csv file you can find it [here](\\output\\csv\\sales_3.csv).
+For csv file you can find it [here](output/csv/sales_3.csv).
 
 #### Identify the top-selling product (based on the total quantity sold) in each category
 
@@ -371,9 +371,9 @@ ORDER BY ProductsCategory ASC;
 
 ```
 
-![Identify the top-selling product (based on the total quantity sold) in each category](\\output\\img\\sales_4.png)
+![Identify the top-selling product (based on the total quantity sold) in each category](output/img/sales_4.png)
 
-For csv file you can find it [here](\\output\\csv\\sales_4.csv).
+For csv file you can find it [here](output/csv/sales_4.csv).
 
 #### Find the day with the highest total sales for each product and the corresponding sale amount
 
@@ -405,9 +405,9 @@ ORDER BY b.item_name ASC;
 
 ```
 
-![Find the day with the highest total sales for each product and the corresponding sale amount](\\output\\img\\sales_5.png)
+![Find the day with the highest total sales for each product and the corresponding sale amount](output/img/sales_5.png)
 
-For csv file you can find it [here](\\output\\csv\\sales_5.csv).
+For csv file you can find it [here](output/csv/sales_5.csv).
 
 #### List the total sales quantity for each month
 
@@ -421,9 +421,9 @@ GROUP BY Month;
 
 ```
 
-![List the total sales quantity for each month](\\output\\img\\sales_6.png)
+![List the total sales quantity for each month](output/img/sales_6.png)
 
-For csv file you can find it [here](\\output\\csv\\sales_6.csv).
+For csv file you can find it [here](output/csv/sales_6.csv).
 
 #### Find the product that had the highest sales in terms of quantity on a given date
 
@@ -437,9 +437,9 @@ GROUP BY date;
 
 ```
 
-![Find the product that had the highest sales in terms of quantity on a given date](\\output\\img\\sales_7.png)
+![Find the product that had the highest sales in terms of quantity on a given date](output/img/sales_7.png)
 
-For csv file you can find it [here](\\output\\csv\\sales_7.csv).
+For csv file you can find it [here](output/csv/sales_7.csv).
 
 #### Calculate the running total of sales for each product over time
 
@@ -456,9 +456,9 @@ LEFT JOIN products b
 
 ```
 
-![Calculate the running total of sales for each product over time](\\output\\img\\sales_8.png)
+![Calculate the running total of sales for each product over time](output/img/sales_8.png)
 
-For csv file you can find it [here](\\output\\csv\\sales_8.csv). Note that the csv file is limited only to first 3000 rows while the actual data has 878503 rows.
+For csv file you can find it [here](output/csv/sales_8.csv). Note that the csv file is limited only to first 3000 rows while the actual data has 878503 rows.
 
 #### Calculate the month-over-month growth rate in sales for each product category
 
@@ -488,9 +488,9 @@ FROM (
 
 ```
 
-![Calculate the month-over-month growth rate in sales for each product category](\\output\\img\\sales_9.png)
+![Calculate the month-over-month growth rate in sales for each product category](output/img/sales_9.png)
 
-For csv file you can find it [here](\\output\\csv\\sales_9.csv).
+For csv file you can find it [here](output/csv/sales_9.csv).
 
 #### For each category, indicate whether the total sales quantity in the most recent month increased or decreased compared to the previous month. Use 'Up', 'Down', or 'Stable' to represent the trend
 
@@ -521,9 +521,9 @@ FROM (
 
 ```
 
-![For each category, indicate whether the total sales quantity in the most recent month increased or decreased compared to the previous month. Use 'Up', 'Down', or 'Stable' to represent the trend](\\output\\img\\sales_10.png)
+![For each category, indicate whether the total sales quantity in the most recent month increased or decreased compared to the previous month. Use 'Up', 'Down', or 'Stable' to represent the trend](output/img/sales_10.png)
 
-For csv file you can find it [here](\\output\\csv\\sales_10.csv).
+For csv file you can find it [here](output/csv/sales_10.csv).
 
 #### Sales Summary
 

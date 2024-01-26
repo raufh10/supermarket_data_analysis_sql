@@ -1,6 +1,6 @@
 # Analyzing Supermarket Database with SQL
 
-![Display Profile Pic](output/img/additional.png)
+<img src="output/img/additional.png" width="500" height="300">
 
 ## Table of Contents
 

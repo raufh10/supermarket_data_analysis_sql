@@ -12,6 +12,7 @@
   + [Loss_Rates](#loss_rates)
   + [Wholesale_Prices](#wholesale_prices)
   + [Sales](#sales)
++ [Data Visualization](#data-visualization)
 
 ## Introduction
 
@@ -536,3 +537,35 @@ For csv file you can find it [here](output/csv/sales_10.csv).
     1. Solanum
 + The ranges of transaction quantity each month starts with 14745 and ends with 36578. With its average transaction quantity is 24403.
 + In 2023 most of sales growth per categories are down, with counting 23 down from previous month and 7 up from previous month.
+
+## Data Visualization
+
+![Display Tableau Dashboard](output/img/dashboard.png)
+
+### Dashboard Overview
+
+After conducting an in-depth analysis of our sales data using SQL, I've developed an interactive **Sales Performance Dashboard**. This tool is designed to provide a clear and dynamic view of our sales metrics, aiding in data-driven decision making.
+
+### Dashboard Features
+
+The dashboard includes several key elements:
+
+- **Key Performance Indicators (KPIs):**
+  - `Total Sales`: Represents the overall sales revenue.
+  - `Number of Sales`: Indicates the total number of sales transactions.
+  - `Average Sales per Transaction`: Calculates the average revenue per sale.
+
+- **Visualizations:**
+  - `Line Plot of Sales Growth`: Tracks the change in sales over time, offering insights into trends and patterns.
+  - `Bar Plot of Top 20 Products`: Highlights our best-performing products based on sales data.
+
+- **Interactive Controls:**
+  - Users can **filter** the data displayed on the dashboard by selecting specific **months** and **product groups**. This feature allows for a more tailored analysis, focusing on particular time frames or product categories.
+
+### How to Use
+
+The dashboard is user-friendly and designed for interactive exploration. Simply select your desired month and product group from the dropdown menus to customize the data display.
+
+---
+
+Your feedback and suggestions for further enhancements are always welcome. Feel free to contribute or reach out for any queries.

@@ -1,5 +1,7 @@
 # Analyzing Supermarket Database with SQL
 
+![Display Profile Pic](output/img/additional.png)
+
 ## Table of Contents
 
 + [Introduction](#introduction)
@@ -542,7 +544,7 @@ For csv file you can find it [here](output/csv/sales_10.csv).
 
 ### Dashboard Overview
 
-After conducting an in-depth analysis of our sales data using SQL, I've developed an interactive **Sales Performance Dashboard**. This tool is designed to provide a clear and dynamic view of our sales metrics, aiding in data-driven decision making.
+After conducting an in-depth analysis of our sales data using SQL, I've developed an interactive **Sales Performance Dashboard**. This tool is designed to provide a clear and dynamic view of our sales metrics, aiding in data-driven decision making. You could find this dashboard at [Tableau Public](https://public.tableau.com/app/profile/rauf.hamidy/viz/SalesPerformanceDashboard_17003520540570/Dashboard).
 
 ### Dashboard Features
 

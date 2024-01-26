@@ -2,8 +2,6 @@
 
 ## Table of Contents
 
-+ [Analyzing Supermarket Database with SQL](#analyzing-supermarket-database-with-sql)
-+ [Table of Contents](#table-of-contents)
 + [Introduction](#introduction)
   + [Business Questions](#business-questions)
   + [About Database](#about-database)

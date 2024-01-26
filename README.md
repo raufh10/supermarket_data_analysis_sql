@@ -553,7 +553,7 @@ The dashboard includes several key elements:
 - **Key Performance Indicators (KPIs):**
   - `Total Sales`: Represents the overall sales revenue.
   - `Number of Sales`: Indicates the total number of sales transactions.
-  - `Average Sales per Transaction`: Calculates the average revenue per sale.
+  - `Average Sale Price`: Calculates the average price per sales.
 
 - **Visualizations:**
   - `Line Plot of Sales Growth`: Tracks the change in sales over time, offering insights into trends and patterns.

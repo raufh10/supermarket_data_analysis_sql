@@ -1,7 +1,5 @@
 # Analyzing Supermarket Database with SQL
 
-![Display Tableau Dashboard](output/img/dashboard.png)
-
 ## Table of Contents
 
 + [Introduction](#introduction)

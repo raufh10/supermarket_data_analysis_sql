@@ -540,7 +540,7 @@ For csv file you can find it [here](output/csv/sales_10.csv).
 
 ## Data Visualization
 
-![Display Tableau Dashboard](output/img/dashboard.png)
+![Display Tableau Dashboard](output/img/Dashboard.png)
 
 ### Dashboard Overview
 

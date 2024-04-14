@@ -544,27 +544,29 @@ For csv file you can find it [here](output/csv/sales_10.csv).
 
 ### Dashboard Overview
 
-After conducting an in-depth analysis of our sales data using SQL, I've developed an interactive **Sales Performance Dashboard**. This tool is designed to provide a clear and dynamic view of our sales metrics, aiding in data-driven decision making. You could find this dashboard at [Tableau Public](https://public.tableau.com/app/profile/rauf.hamidy/viz/SalesPerformanceDashboard_17003520540570/Dashboard).
+After conducting an in-depth analysis of our sales data using SQL, I've developed an interactive **Sales Performance Dashboard**. This tool is designed to provide a clear and dynamic view of our sales metrics, aiding in data-driven decision making. You could find this dashboard at [Tableau Public](https://public.tableau.com/views/SalesPerformanceDashboardv2_0/Dashboard?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link).
 
 ### Dashboard Features
 
 The dashboard includes several key elements:
 
 - **Key Performance Indicators (KPIs):**
-  - `Total Sales`: Represents the overall sales revenue.
-  - `Number of Sales`: Indicates the total number of sales transactions.
-  - `Average Sale Price`: Calculates the average price per sales.
+  - `Gross Revenue`: Represents the overall sales revenue.
+  - `Total Transactions`: Indicates the total number of sales transactions.
+  - `Total Profit`: Amount of money after subtracting cost of goods from gross revenue
+  - `Profit Margin`:  Measure of profitability that shows the percentage of revenue that exceeds the costs of goods
 
 - **Visualizations:**
-  - `Line Plot of Sales Growth`: Tracks the change in sales over time, offering insights into trends and patterns.
-  - `Bar Plot of Top 20 Products`: Highlights our best-performing products based on sales data.
+  - `Line Plot of Sales Growth`: Tracks the change in sales over year, offering insights into the trends of KPIs.
+  - `Treemap of Profit`: Showcasing product categories ranked by their profitability.
+  - `Bar Plot of Profit Margin`: Highlights our best-performing product categories based on Profit Margin.
 
 - **Interactive Controls:**
-  - Users can **filter** the data displayed on the dashboard by selecting specific **months** and **product groups**. This feature allows for a more tailored analysis, focusing on particular time frames or product categories.
+  - Users can **filter** the data displayed on the dashboard by selecting specific **product categories**. This feature allows for a more tailored analysis, focusing on particular product category.
 
 ### How to Use
 
-The dashboard is user-friendly and designed for interactive exploration. Simply select your desired month and product group from the dropdown menus to customize the data display.
+The dashboard is user-friendly and designed for interactive exploration. Simply select your desired product category from the visualization to customize the data display.
 
 ---
 
